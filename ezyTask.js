@@ -35,10 +35,3 @@ function CodelandUsernameValidation2(str) {
 //   console.log(CodelandUsernameValidation2("_u__hello_world123"));
 //******************************************************************************************************** */
 //******************************************************************************************************** */
-function remainder(x, y) {
-	if (x>y) return y;
-    if (x<y) return x;
-	if (x==y) return 0;
-	
-}
-console.log(remainder(1,3))

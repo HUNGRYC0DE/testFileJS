@@ -517,7 +517,7 @@ for (i = 3; i <= 7; i++) { //dastor countinue barkhalaf break faghat ye dastor r
   if (i == 5) {
       continue;
   }
-  console.log(i);
+   
 }
 //**********************************************************************************************************************************************************
 //  halghey do while aval code ra ejra mikonad va bad mibinad k dastor shart ejra shode ya kheir.
@@ -535,3 +535,11 @@ do {
   i++;
 }while (i < 5)
 //**********************************************************************************************************************************************************
+// return Math.floor(Math.random() * (10 - 20 + 1)) + 10;  return adad tasadofi bein 10 ta 20
+function checkSign(num) {
+  return (num == 0) ? "zero" : (num < 0) ? "negative" : "positive";
+}
+checkSign(10);
+//**********************************************************************************************************************************************************
+
+
